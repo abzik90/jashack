@@ -1,6 +1,7 @@
 class User:
     #A user object
-    def __init__(self, email, name, surname):
+    def __init__(self, id, email, name, surname):
+        self.id = id
         self.email = email
         self.name = name
         self.surname = surname
